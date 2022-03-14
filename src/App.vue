@@ -1678,12 +1678,8 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import './assets/1b17faf0245e53f306dbd0b9a6a25a08.css';
 import './assets/isolated.css';
-import './assets/infoplus.css';
-import './assets/mobile.css';
-import './assets/theme_002.css';
-import './assets/theme.css';
+import './assets/origin.css';
 import IData from './types/IData';
 
 const data: IData = {
