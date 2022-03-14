@@ -438,7 +438,7 @@ div.form_milestone_holder_wrap_outer.shadow {
 }
 .form_milestone_step_arrow_wrap {
   position: relative;
-  width: 2.5rem;
+  width: 20px;
   height: 56px;
   overflow-y: hidden;
 }
