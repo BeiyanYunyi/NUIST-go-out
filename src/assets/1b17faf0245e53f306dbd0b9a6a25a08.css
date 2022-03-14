@@ -1,0 +1,324 @@
+TABLE.xdLayout TD {
+  border-top: medium none;
+  border-right: medium none;
+  border-bottom: medium none;
+  border-left: medium none;
+}
+
+.dark1 {
+  background-color: #000000;
+}
+.optionalPlaceholder {
+  font-size: 9pt;
+  text-decoration: none;
+  font-family: Microsoft YaHei;
+  font-weight: normal;
+  color: #333333;
+  font-style: normal;
+  padding-left: 20px;
+  behavior: url(#default#xOptional);
+}
+TD {
+  border-top-color: #d8d8d8;
+  border-left-color: #d8d8d8;
+  border-bottom-color: #d8d8d8;
+  border-right-color: #d8d8d8;
+}
+.xdRepeatingSection {
+  border: 1pt solid transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+H1 {
+  font-size: 24pt;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: normal;
+  color: #354d3f;
+}
+.accent3 {
+  background-color: #c89d11;
+}
+TABLE {
+  font-size: 10pt;
+  font-family: Microsoft YaHei;
+  text-transform: none;
+  font-weight: normal;
+  color: black;
+  font-style: normal;
+}
+H4 {
+  font-size: 10pt;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: normal;
+  color: #262626;
+  font-style: italic;
+}
+TABLE {
+  border-top: medium none;
+  border-right: medium none;
+  border-collapse: collapse;
+  border-bottom: medium none;
+  border-left: medium none;
+}
+BODY {
+  color: black;
+}
+.dark2 {
+  background-color: #2b4b4d;
+}
+.xdSection {
+  border: 1pt solid transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.xdMultiSelectFillinRTL {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 1px;
+  margin: 1px;
+  border: 1pt solid #dcdcdc;
+  overflow: hidden;
+  text-align: right;
+}
+.xdLinkedPicture {
+  margin: 1px;
+  behavior: url(#default#urn::xdPicture) url(#default#urn::controls/Binder);
+}
+TD.xdTableCellComponent {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 22px;
+}
+TD.xdTitleCell {
+  border-top: #bfbfbf 1pt solid;
+  border-right: #bfbfbf 1pt solid;
+  padding-bottom: 14px;
+  text-align: center;
+  padding-top: 32px;
+  padding-left: 22px;
+  border-left: #bfbfbf 1pt solid;
+  padding-right: 22px;
+  background-color: #ffffff;
+  vertical-align: bottom;
+}
+.xdMultiSelectFillIn {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 1px;
+  margin: 1px;
+  border: 1pt solid #dcdcdc;
+  overflow: hidden;
+  text-align: left;
+}
+.xdDTPicker {
+  display: inline;
+  margin: 1px;
+  margin-bottom: 2px;
+  border: 1pt solid #dcdcdc;
+  color: windowtext;
+  background-color: window;
+  overflow: hidden;
+  text-indent: 0;
+  layout-grid: none;
+}
+.xdDTText {
+  height: 100%;
+  width: 100%;
+  margin-right: 22px;
+  overflow: hidden;
+  padding: 0px;
+  white-space: nowrap;
+}
+.xdFileAttachment {
+  display: inline-block;
+  margin: 1px;
+  behavior: url(#default#urn::xdFileAttachment);
+}
+.xdMultiSelectList {
+  margin: 1px;
+  display: inline-block;
+  border: 1pt solid #dcdcdc;
+  padding: 1px 1px 1px 5px;
+  text-indent: 0;
+  color: windowtext;
+  background-color: window;
+  overflow: auto;
+  behavior: url(#default#DataBindingUI) url(#default#urn::controls/Binder)
+    url(#default#MultiSelectHelper) url(#default#ScrollableRegion);
+}
+.light1 {
+  background-color: #ffffff;
+}
+.xdListBox,
+.xdComboBox {
+  margin: 1px;
+}
+TD.xdTitleCellWithSubHeading {
+  border-top: #bfbfbf 1pt solid;
+  border-right: #bfbfbf 1pt solid;
+  padding-bottom: 6px;
+  text-align: center;
+  padding-top: 32px;
+  padding-left: 22px;
+  border-left: #bfbfbf 1pt solid;
+  padding-right: 22px;
+  background-color: #ffffff;
+  vertical-align: bottom;
+}
+TD.xdTableCellLabel {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 22px;
+  padding-right: 5px;
+}
+TABLE.msoUcTable TD {
+  border-top: 1pt solid;
+  border-right: 1pt solid;
+  border-bottom: 1pt solid;
+  border-left: 1pt solid;
+}
+.optionalPlaceholder {
+  padding-right: 20px;
+}
+SELECT {
+  font-size: 10pt;
+  font-family: Microsoft YaHei;
+}
+.xdTextBoxRTL {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 1px;
+  margin: 1px;
+  border: 1pt solid #dcdcdc;
+  color: windowtext;
+  background-color: window;
+  overflow: hidden;
+  text-align: right;
+  word-wrap: normal;
+}
+.accent1 {
+  background-color: #6c9a7f;
+}
+.xdActiveX {
+  margin: 1px;
+  behavior: url(#default#ActiveX);
+}
+TD.xdTitleCellWithOffsetBody {
+  border-top: #bfbfbf 1pt solid;
+  border-right: #bfbfbf 1pt solid;
+  padding-bottom: 2px;
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 22px;
+  border-left: #bfbfbf 1pt solid;
+  padding-right: 22px;
+  background-color: #ffffff;
+  vertical-align: bottom;
+}
+H5 {
+  font-size: 10pt;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+  color: #354d3f;
+  font-style: italic;
+}
+.xdExpressionBox {
+  margin: 1px;
+  padding: 1px;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+TD.xdTableContentCell {
+  border-right: #bfbfbf 1pt solid;
+  border-bottom: #bfbfbf 1pt solid;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  border-left: #bfbfbf 1pt solid;
+  padding-right: 0px;
+  background-color: #ffffff;
+  vertical-align: top;
+}
+.accent5 {
+  background-color: #568ea1;
+}
+.langFont {
+  font-size: 10pt;
+  font-family: Microsoft YaHei;
+  width: 150px;
+}
+TR.xdContentRowOneCol {
+  vertical-align: center;
+}
+.xdPictureButton {
+  background-color: transparent;
+  padding: 0px;
+  behavior: url(#default#PictureButton);
+}
+.xdMultiSelectListItem {
+  display: block;
+  white-space: nowrap;
+}
+.xdSignatureLine {
+  display: inline-block;
+  margin: 1px;
+  background-color: transparent;
+  border: 1pt solid transparent;
+  behavior: url(#default#SignatureLine);
+}
+.xdHyperlinkBoxButtonClickable {
+  border-width: 1px;
+  border-style: outset;
+  behavior: url(#default#HyperlinkBoxButton);
+}
+.xdRichTextBox {
+  display: inline-block;
+  padding: 1px;
+  margin: 1px;
+  border: 1pt solid #dcdcdc;
+  color: windowtext;
+  background-color: window;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+TD.xdTableContentCellWithVerticalOffset {
+  border-right: #bfbfbf 1pt solid;
+  border-bottom: #bfbfbf 1pt solid;
+  padding-bottom: 2px;
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 95px;
+  border-left: #bfbfbf 1pt solid;
+  padding-right: 0px;
+  background-color: #ffffff;
+  vertical-align: bottom;
+}
+.xdBehavior_GTFormatting {
+  behavior: url(#default#urn::controls/Binder) url(#default#Formatting) url(#default#GhostedText);
+}
+.defaultInDocUI {
+  font-size: 9pt;
+  font-family: Microsoft YaHei;
+}
+.xdHyperlinkBoxClickable {
+  behavior: url(#default#HyperlinkBox);
+}
+.xdBehavior_GTFormattingNoBUI {
+  behavior: url(#default#CalPopup) url(#default#urn::controls/Binder) url(#default#Formatting)
+    url(#default#GhostedText);
+}

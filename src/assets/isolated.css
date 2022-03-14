@@ -1,0 +1,24 @@
+.cell1 {
+  border-top: #bfbfbf 1pt !important;
+  border-right: #bfbfbf 1pt !important;
+  vertical-align: middle !important;
+  border-bottom: #000000 1pt !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  padding-left: 10px !important;
+  border-left: #bfbfbf 1pt !important;
+  padding-right: 10px !important;
+}
+
+table.xdLayout td.cell2 {
+  border-top: #0070c0 1pt solid;
+  border-right: #0070c0 1pt solid;
+  vertical-align: middle;
+  border-bottom: #0070c0 1pt solid;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  border-left: #0070c0 1pt solid;
+  padding-right: 5px;
+  background-color: #f2f2f2;
+}
