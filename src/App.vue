@@ -35,7 +35,8 @@
             <div id="command_bar_title_icon" class="title_icon complete" style="display: none">
               <i class="i-icon-menu"></i>
             </div>
-            <ul id="form_command_bar">
+            <menu-icon />
+            <ul id="form_command_bar" style="display: inline-block; flex-grow: 1">
               <li id="command_menu" class="command_menu btn-group hide">
                 <a
                   class="command_button_content dropdown-toggle command_button_all"
@@ -1684,6 +1685,7 @@
 import './assets/isolated.css';
 import './assets/origin.css';
 import IData from './types/IData';
+import MenuIcon from './components/MenuIcon.vue';
 
 const data: IData = {
   applyDate: '',
