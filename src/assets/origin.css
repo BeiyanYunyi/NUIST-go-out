@@ -518,10 +518,10 @@ tr.fake td {
   font-size: 0;
   vertical-align: middle;
   white-space: nowrap;
-  *margin-left: 0.3em;
+  margin-left: 0.3em;
 }
 .btn-group:first-child {
-  *margin-left: 0;
+  margin-left: 0;
 }
 .btn-group > .dropdown-menu {
   font-size: 14px;
@@ -560,8 +560,8 @@ tr.fake td {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  *border-right-width: 2px;
-  *border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -571,15 +571,7 @@ tr.fake td {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
-} /*!
- * ClockPicker v0.0.7 for jQuery (http://weareoutman.github.io/clockpicker/)
- * Copyright 2014 Wang Shenwei.
- * Licensed under MIT (https://github.com/weareoutman/clockpicker/blob/gh-pages/LICENSE)
- * 
- * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+}
 body {
   overflow-x: hidden;
   background-color: #f3f3f3 !important;
@@ -672,25 +664,22 @@ div.infoplus_view {
   font-weight: 700;
   min-width: 118px;
   display: inline-block;
-  *display: inline;
   padding: 3px 8px;
   margin-bottom: 0;
-  *margin-left: 0.3em;
+  margin-left: 0.3em;
   font-size: 14px;
   line-height: 20px;
-  *line-height: 20px;
   color: #096;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
   background-color: #fff;
-  *background-color: #ffffff;
   border: 1px solid #ffffff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  *zoom: 1;
+  zoom: 1;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 2px 2px #0000001a;
@@ -701,18 +690,15 @@ div.infoplus_view {
 #command_holder .command_button_content:active {
   color: #096;
   background-color: #f8f8f8;
-  *background-color: #f8f8f8;
 }
 #command_holder .command_button_content:active {
-  background-color: #cccccc \;
+  background-color: #cccccc \;;
 }
 #command_holder .command_button_content:hover {
   color: #096;
   text-decoration: none;
   background-color: #f8f8f8;
-  *background-color: #f8f8f8;
   border: 1px solid #fbcb09;
-  *border: 0;
   border-color: #c5c5c5;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr="#ffffffff",endColorstr="#ffe6e6e6",GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
@@ -899,13 +885,11 @@ li.tool_button {
 }
 a.tool_button {
   display: inline-block;
-  *display: inline;
   padding: 3px;
   margin-bottom: 0;
-  *margin-left: 0.3em;
+  margin-left: 0.3em;
   font-size: 22px;
   line-height: 18px;
-  *line-height: 18px;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
@@ -918,12 +902,10 @@ a.tool_button {
 }
 a.tool_button:hover {
   display: inline-block;
-  *display: inline;
   padding: 3px;
   margin-bottom: 0;
-  *margin-left: 0.3em;
+  margin-left: 0.3em;
   line-height: 18px;
-  *line-height: 18px;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -933,7 +915,6 @@ a.tool_button:hover {
   -moz-border-radius: 4px;
   border-radius: 4px;
   background-color: #f8f8f8;
-  *background-color: #f8f8f8;
   color: #4a4a4a;
 }
 .scroll_tip {
