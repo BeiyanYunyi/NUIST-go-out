@@ -1,28 +1,4 @@
 <template>
-  <tr class="fake">
-    <td
-      style="
-        border-color: rgb(0, 112, 192);
-        border-style: none;
-        border-width: 0px;
-        vertical-align: middle;
-        padding: 0px;
-        background-color: rgb(242, 242, 242);
-      "
-      colspan="2"
-    ></td>
-    <td
-      style="
-        border-color: rgb(0, 112, 192);
-        border-style: none;
-        border-width: 0px;
-        vertical-align: middle;
-        padding: 0px;
-        background-color: rgb(242, 242, 242);
-      "
-      colspan="2"
-    ></td>
-  </tr>
   <tr>
     <td
       style="

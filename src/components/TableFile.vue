@@ -1,5 +1,14 @@
 <template>
   <tr>
+    <td class="cell2" colspan="4">
+      <div align="left">
+        <font color="#ff0000">
+          说明：进出校验证时间须在离校具体时间~返校具体时间之间；否则验证不通过。
+        </font>
+      </div>
+    </td>
+  </tr>
+  <tr>
     <td class="cell2" colspan="2">
       <div align="center">
         <font size="3">附&emsp;&emsp;件</font>

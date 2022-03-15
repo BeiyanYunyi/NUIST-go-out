@@ -277,9 +277,6 @@ a:hover {
   background-color: #e5e5e5;
   margin: auto;
 }
-#div_invoice {
-  display: none;
-}
 #form_holder {
   height: auto;
   background-color: #e5e5e5;
@@ -468,51 +465,10 @@ div.form_milestone_holder_wrap_outer.shadow {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
   -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)';
 }
-#div_loader_content {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  margin-left: -25%;
-  margin-top: -10px;
-  text-align: center;
-  background-color: #e5e5e5;
-  width: 50%;
-}
-#div_loader_text {
-  font-size: 12px;
-}
-#div_loader {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #e5e5e5;
-}
-#div_loader_progress {
-  margin-top: 2px;
-  background-color: #b6cef1;
-  height: 4px;
-  overflow: hidden;
-}
-#div_loader_progress_percent {
-  background-color: #478af1;
-  height: 4px;
-  position: relative;
-  right: 100%;
-}
-#div_loader_text {
-  display: inline-block;
-  position: relative;
-  font-size: 12px;
-}
 #help_content {
   position: fixed;
   z-index: 10001;
   cursor: pointer;
-}
-tr.fake td {
-  display: none;
 }
 .btn-group {
   position: relative;
