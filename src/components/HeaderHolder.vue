@@ -36,7 +36,7 @@
         </li>
         <li class="no_action">此任务已处理,您无需任何操作</li>
         <li class="tool_button">
-          <a id="FormCommandMore" class="tool_button" href="#">
+          <a id="FormCommandMore" class="tool_button" href="#" @click="handleClick">
             <i class="i-icon-more-vert"></i>
           </a>
         </li>
@@ -48,11 +48,16 @@
       </ul>
     </div>
   </div>
+  <bottom-sheet v-if="displayBottomSheet.displayBottomSheet" />
 </template>
 <script lang="ts" setup>
+import useDisplayBottomSheetStore from '../state/displayBottomSheet';
 import useDisplayHeaderStore from '../state/displayHeader';
 import MenuIcon from './MenuIcon.vue';
+import BottomSheet from './BottomSheet.vue';
 
+defineProps<{ no: string }>();
+const displayBottomSheet = useDisplayBottomSheetStore();
 const displayHeader = useDisplayHeaderStore();
 window.addEventListener('scroll', () => {
   if (window.scrollY <= 46) {
@@ -61,6 +66,9 @@ window.addEventListener('scroll', () => {
     displayHeader.hide();
   }
 });
-
-defineProps<{ no: string }>();
+const handleClick = (e: MouseEvent) => {
+  e.preventDefault();
+  window.document.body.style.overflow = 'hidden';
+  displayBottomSheet.show();
+};
 </script>

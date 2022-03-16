@@ -1,5 +1,4 @@
 <template>
-  <div id="help_content"></div>
   <div id="div_render_container" style="display: block">
     <form id="renderForm">
       <div id="div_content" class="div_content">
