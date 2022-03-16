@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td class="cell2" colspan="2">
-      <div align="center">
+      <div style="text-align: center">
         <font size="3">
           请假期间有无任课教师
           <font color="#ff0000">*</font>

@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td class="cell2" colspan="2">
-      <div align="center">
+      <div style="text-align: center">
         <font size="3">郑重提醒</font>
       </div>
     </td>

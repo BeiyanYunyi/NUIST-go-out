@@ -18,12 +18,12 @@
     <tbody>
       <tr class="xdTitleRow">
         <td class="xdTitleCell cell1">
-          <h1 align="center">
+          <h1 style="text-align: center">
             <strong>
               <font color="#0070c0">学生请假申请</font>
             </strong>
           </h1>
-          <div align="center">&nbsp;</div>
+          <div style="text-align: center">&nbsp;</div>
         </td>
       </tr>
       <tr class="xdTableContentRow">

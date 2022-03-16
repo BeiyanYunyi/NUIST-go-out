@@ -15,7 +15,7 @@
       "
       colspan="2"
     >
-      <div align="center"><font size="3"></font>&nbsp;</div>
+      <div style="text-align: center"><font size="3"></font>&nbsp;</div>
     </td>
     <td
       style="
@@ -49,7 +49,7 @@
       "
       colspan="2"
     >
-      <div align="center"><font size="3"></font>&nbsp;</div>
+      <div style="text-align: center"><font size="3"></font>&nbsp;</div>
     </td>
     <td
       style="
@@ -66,7 +66,7 @@
       "
       colspan="2"
     >
-      <div align="center"><font size="3"></font>&nbsp;</div>
+      <div style="text-align: center"><font size="3"></font>&nbsp;</div>
     </td>
   </tr>
 </template>

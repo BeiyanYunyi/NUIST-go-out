@@ -1,11 +1,11 @@
 <template>
   <tr>
     <td class="cell2" colspan="2">
-      <div align="center">
-        <font size="3">
+      <div style="text-align: center">
+        <div style="font-size: medium; display: inline">
           是否离宁
-          <font color="#ff0000">*</font>
-        </font>
+          <div color="#ff0000" style="color: #ff0000; display: inline">*</div>
+        </div>
       </div>
     </td>
     <td class="cell2" colspan="2">
@@ -21,9 +21,7 @@
           disabled="true"
           :checked="leaveNanjing"
         />
-        <label for="V0_CTRL242" class="infoplus_radioLabel">
-          <font size="3">是</font>
-        </label>
+        <label htmlFor="V0_CTRL242" class="infoplus_radioLabel" style="font-size: medium">是</label>
       </div>
       <div>
         <input
@@ -37,23 +35,21 @@
           disabled="true"
           :checked="!leaveNanjing"
         />
-        <label for="V0_CTRL243" class="infoplus_radioLabel">
-          <font size="3">否</font>
-        </label>
+        <label for="V0_CTRL243" class="infoplus_radioLabel" style="font-size: medium">否</label>
       </div>
     </td>
   </tr>
   <tr>
     <td class="cell2" rowspan="3" colspan="2">
-      <div align="center">
-        <font size="3">
+      <div style="text-align: center">
+        <div style="font-size: medium; display: inline">
           去向目的地
-          <font color="#ff0000">*</font>
-        </font>
+          <div color="#ff0000" style="color: #ff0000; display: inline">*</div>
+        </div>
       </div>
     </td>
     <td class="cell2" colspan="2">
-      <div align="center">
+      <div style="text-align: center">
         <div
           id="label_a1dedf31-23a1-4cc9-91ba-12f3344b4b1a_Container"
           class="infoplus_labelControlContainer inline"
@@ -71,7 +67,7 @@
   </tr>
   <tr>
     <td class="cell2" colspan="2">
-      <div align="center">
+      <div style="text-align: center">
         <div
           id="label_a2d0dc70-97d7-4139-a67d-91f503fa2b41_Container"
           class="infoplus_labelControlContainer inline"
@@ -89,7 +85,7 @@
   </tr>
   <tr>
     <td class="cell2" colspan="2">
-      <div align="center">
+      <div style="text-align: center">
         <div
           id="label_f4125e52-3cc8-419f-b876-d447d8a86df0_Container"
           class="infoplus_labelControlContainer inline"

@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td class="cell2" colspan="2">
-      <div align="center">
+      <div style="text-align: center">
         <font size="3">{{ column1 }}<font v-if="required" size="3" color="#ff0000">*</font></font>
       </div>
     </td>

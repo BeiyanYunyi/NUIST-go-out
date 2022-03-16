@@ -1,12 +1,12 @@
 <template>
   <tr>
     <td class="cell2">
-      <div align="center">
+      <div style="text-align: center">
         <font size="3">{{ column1 }}</font>
       </div>
     </td>
     <td class="cell2" colspan="3">
-      <div align="center">
+      <div style="text-align: center">
         <div
           id="label_fdc26bf4-7f5f-446b-843c-e862f839c52c_Container"
           class="infoplus_labelControlContainer inline"

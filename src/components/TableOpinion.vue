@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td class="cell2" rowspan="2">
-      <div align="center">
+      <div style="text-align: center">
         <font size="3">辅导员意见</font>
       </div>
     </td>
