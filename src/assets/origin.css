@@ -688,7 +688,7 @@ div.infoplus_view {
 }
 #form_command_bar {
   background-color: #f5f5f5;
-  height: 36px;
+  height: 48px;
   padding-right: 3px;
   min-width: 280px;
   position: relative;
@@ -699,13 +699,13 @@ div.infoplus_view {
 #command_bar_title_icon {
   float: left;
   list-style: none;
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 48px;
   font-size: 24px;
   color: #fff;
   text-align: center;
   cursor: pointer;
-  line-height: 36px;
+  line-height: 48px;
   z-index: 1;
   position: relative;
 }
@@ -713,7 +713,7 @@ div.infoplus_view {
   background-color: #4caf50;
 }
 #form_command_bar li.no_action {
-  height: 26px;
+  height: 48px;
   margin: 4px 2px;
   padding: 4px 0 0 5px;
   float: left;
@@ -727,7 +727,7 @@ div.infoplus_view {
 }
 #title_content {
   padding-left: 5px;
-  line-height: 40px;
+  line-height: 46px;
   font-size: 14px;
   color: #fff;
   float: left;
@@ -739,14 +739,14 @@ div.infoplus_view {
 }
 #title_description {
   padding-right: 9px;
-  line-height: 39px;
+  line-height: 45px;
   font-size: 12px;
   color: #eee;
   float: right;
 }
 #title_description_short {
   padding-right: 9px;
-  line-height: 39px;
+  line-height: 45px;
   font-size: 12px;
   color: #eee;
   float: right;
@@ -821,7 +821,7 @@ div.infoplus_view {
   background-color: #f8f8f8;
 }
 li.command_menu {
-  height: 26px;
+  height: 38px;
   margin: 4px 6px;
   float: left;
   position: relative;
@@ -1028,24 +1028,9 @@ a.tool_button:hover {
 #form_command_bar {
   height: 48px;
 }
-#command_bar_title_icon {
-  width: 42px;
-  height: 48px;
-  line-height: 48px;
-}
 #form_command_bar li.no_action {
   height: 38px;
   line-height: 32px;
-}
-#title_content {
-  line-height: 46px;
-}
-#title_description,
-#title_description_short {
-  line-height: 45px;
-}
-li.command_menu {
-  height: 38px;
 }
 li.command_menu span.caret {
   margin-top: 14px;
