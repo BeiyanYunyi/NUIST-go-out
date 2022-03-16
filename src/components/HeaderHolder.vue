@@ -1,5 +1,5 @@
 <template>
-  <div id="header_holder" :style="{ top: `${top}px`, zIndex: 20 }">
+  <div id="header_holder" style="top: 0px; z-index: 2; position: sticky; top: -46px">
     <div id="title_holder" class="complete">
       <div id="title_icon" class="title_icon">
         <i class="i-icon-menu"></i>
@@ -50,19 +50,15 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { ref } from 'vue';
 import useDisplayHeaderStore from '../state/displayHeader';
 import MenuIcon from './MenuIcon.vue';
 
-const top = ref(0);
 const displayHeader = useDisplayHeaderStore();
 window.addEventListener('scroll', () => {
   if (window.scrollY <= 46) {
     displayHeader.show();
-    top.value = -window.scrollY;
   } else {
     displayHeader.hide();
-    top.value = -46;
   }
 });
 
