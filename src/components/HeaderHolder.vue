@@ -1,7 +1,7 @@
 <template>
-  <div id="header_holder" style="top: 0px; z-index: 2; position: sticky; top: -46px">
+  <div id="header_holder" style="z-index: 2; position: sticky; top: -46px">
     <div id="title_holder" class="complete">
-      <div id="title_icon" class="title_icon">
+      <div id="title_icon" class="title_icon" @click="handleMenuIconClick">
         <i class="i-icon-menu"></i>
       </div>
       <div id="title_content" style="max-width: 67vw">
@@ -17,9 +17,6 @@
     <!-- 1.form command bar -->
     <div id="command_holder">
       <div class="clear"></div>
-      <div id="command_bar_title_icon" class="title_icon complete" style="display: none">
-        <i class="i-icon-menu"></i>
-      </div>
       <menu-icon v-if="!displayHeader.displayHeader" />
       <ul id="form_command_bar" style="display: inline-block; flex-grow: 1">
         <li id="command_menu" class="command_menu btn-group hide">
@@ -55,10 +52,12 @@ import useDisplayBottomSheetStore from '../state/displayBottomSheet';
 import useDisplayHeaderStore from '../state/displayHeader';
 import MenuIcon from './MenuIcon.vue';
 import BottomSheet from './BottomSheet.vue';
+import useDisplayNavMenuStore from '../state/displayNavMenu';
 
 defineProps<{ no: string }>();
 const displayBottomSheet = useDisplayBottomSheetStore();
 const displayHeader = useDisplayHeaderStore();
+const displayNavMenu = useDisplayNavMenuStore();
 window.addEventListener('scroll', () => {
   if (window.scrollY <= 46) {
     displayHeader.show();
@@ -70,5 +69,8 @@ const handleClick = (e: MouseEvent) => {
   e.preventDefault();
   window.document.body.style.overflow = 'hidden';
   displayBottomSheet.show();
+};
+const handleMenuIconClick = () => {
+  displayNavMenu.switch();
 };
 </script>
